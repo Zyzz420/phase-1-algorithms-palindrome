@@ -2,13 +2,16 @@ function isPalindrome(word) {
   // Write your algorithm here
 }
 
-/* 
-  Add your pseudocode here
-*/
+let word = 'mom';
+function isPalindrome(word) {
+  // Write your algorithm here
+  if(word.split("").reverse().join("") === word){
+    return true; 
+  } else{
+    return false;
+  }
+}
 
-/*
-  Add written explanation of your solution here
-*/
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
